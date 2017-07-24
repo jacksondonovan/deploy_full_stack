@@ -5,7 +5,7 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('firstnames').insert([
-        {name: 'rowValue1'},
+        {name: 'mittens'},
         {name: 'todd'},
         {name: 'margo'}
       ]);
